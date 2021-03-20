@@ -1,0 +1,13 @@
+import java.util.*;
+public class Even
+{
+    public static void main(String [] args)
+    {
+         int i,evnum=2;
+         for (i=1; i<=10; i++)
+         {
+             System.out.println(evnum);
+             evnum=evnum+2;
+         }
+    }
+} 

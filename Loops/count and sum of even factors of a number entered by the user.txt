@@ -1,0 +1,29 @@
+import java.util.*;
+public class CountandFactorsEven
+{
+    public static void main(String [] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int num,i,count,sum;
+        
+        System.out.print("\n Enter a number to find out its factors!");
+        num=sc.nextInt();
+        count=0;
+        sum=0;
+        
+        System.out.println("\n The even factors are :");
+        for(i=1; i<=num; i++)
+        {
+            if(num%i==0 && i%2==0)
+            {
+                count=count+1;
+                sum=sum+i;
+                System.out.println(i);
+            }
+            
+        }
+         
+        System.out.println("\n The count of the even factors are :"+count);
+        System.out.println("\n The sum of the even factors are :"+sum);
+    }
+} 
