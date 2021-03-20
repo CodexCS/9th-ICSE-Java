@@ -1,2 +1,2 @@
 # 9th-ICSE-Java
-Here you can find all the 9th ICSE java programs 
+Here you can find most of the 9th grade ICSE java programs. 
